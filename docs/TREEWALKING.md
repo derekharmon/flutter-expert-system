@@ -1,6 +1,6 @@
 # TREE-WALKING
 
-The **expert system** represents the knowledge it learns from a user as a simple **binary tree**. It furthermore persists this growing knowledge on the Dragonchain, where it MAY be further verified (trainer's reputation, resolving one or more users who have trained the same question, _et al_) as a *map* of key-value pairs (_k_, _v_).
+The **expert system** represents the knowledge it learns from a user as a simple **binary tree**. It furthermore persists this growing knowledge on the Dragonchain, where it MAY be further verified (trainer's reputation, resolving one or more users who have trained the same question, _et al_) as a **map** of key-value pairs (_k_, _v_).
 
 ## Why a map?
 
@@ -22,7 +22,7 @@ The values are represented by text strings. If the value comes from a non-leaf n
 
 The next node function, _f_, takes two arguments _k_ <sub>i</sub> and a Boolean value, _b_, equivalent to the integers: 1 or 0. This _b_ comes from the user's response of _Yes_ or _No_ to the Question _v_ <sub>i</sub> at _k_ <sub>i</sub>.
 
-Simply stated, _k_ <sub>i+1</sub> = _f_(_k_ <sub>i</sub>, _b_) = 2_k_ <sub>i</sub> + _b_.
+Simply stated, _k_ <sub>i+1</sub> = _f_(_k_ <sub>i</sub>, _b_) = 2 _k_ <sub>i</sub> + _b_.
 
 If this seems surprising, then you can try it out using the figure of key indices shown above. 
 

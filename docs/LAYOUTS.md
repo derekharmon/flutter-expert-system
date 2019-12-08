@@ -4,7 +4,7 @@ This document describes the layout mock-ups to be implemented for the **expert s
 
 ## YesNoLayout
 
-![YesNoLayout mock-up](https://github.com/derekharmon/flutter_expert_system/raw/master/docs/layouts/YesNoLayout.png)
+<img src='https://github.com/derekharmon/flutter_expert_system/raw/master/docs/layouts/YesNoLayout.png' alt='YesNoLayout mock-up' title='YesNoLayout mock-up' height='1218px' width='562px' border='2' />
 
 `YesNoLayout` is used in many places throughout the application where only a _Yes_ or _No_ answer is necessary from the user.
 
@@ -12,7 +12,7 @@ This may be abbreviated `YNLayout` to save space.
 
 ## TypeInLayout
 
-![TypeInLayout mock-up](https://github.com/derekharmon/flutter_expert_system/raw/master/docs/layouts/TypeInLayout.png)
+<img src='https://github.com/derekharmon/flutter_expert_system/raw/master/docs/layouts/TypeInLayout.png' alt='TypeInLayout mock-up' title='TypeInLayout mock-up' height='1218px' width='562px' border='2' />
 
 `TypeInLayout` is used when soliciting a new question from the user to train the **expert system**. They must enter the question using their mobile device's virtual keyboard. The new question must have a _Yes_ or _No_ answer, but otherwise can be freely-formulated.
 
@@ -22,7 +22,7 @@ This may be abbreviated `TypLayout` to save space.
 
 ## SpeechLayout
 
-![SpeechLayout mock-up](https://github.com/derekharmon/flutter_expert_system/raw/master/docs/layouts/SpeechLayout.png)
+<img src='https://github.com/derekharmon/flutter_expert_system/raw/master/docs/layouts/SpeechLayout.png' alt='SpeechLayout mock-up' title='SpeechLayout mock-up' height='1218px' width='562px' border='2' />
 
 `SpeechLayout` is an alternative method for user input of new questions for the **expert system** to learn. The app will prompt the user to supply a _Yes_ or _No_ question in the central Text region of the screen, then a beep will signal the user that their Microphone is listening, the user can provide a question that will be parsed by the device's speech recognition library into text, and there will be a bong after a pause in the user's utterance. A `YesNoLayout` will always follow to confirm that the app has the correct transcription of the question.
 
