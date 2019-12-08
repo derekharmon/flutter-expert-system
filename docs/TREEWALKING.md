@@ -32,6 +32,6 @@ If the Answer resulting from a tree-walk doesn't satisfy the user's problem, the
 
 In the "I Don't Know" state, the learning happens by obtaining a new Question which replaces _v_ <sub>i</sub> at _k_ <sub>i</sub>. The user indicates whether a _Yes_ or _No_ answer leads to the correct Answer, so there are two cases for what happens to the incorrect Guess and correct Answer:
 
-1. If user indicates _No_ is correct for the new Answer: (_k_ <sub>i+1</sub>, _v_ <sub>i+1</sub>) becomes the new Answer, and (_k_ <sub>i+1</sub> + 1, _v_<sub>i+1</sub> + 1) becomes the old Guess.
-2. If user indicates _Yes_ is correct for the new Answer: (_k_ <sub>i+1</sub>, _v_ <sub>i+1</sub>) becomes the old Guess, and (_k_ <sub>i+1</sub> + 1, _v_<sub>i+1</sub> + 1) becomes the new Answer. 
+1. If user indicates _No_ is correct for the new Answer: _v_ <sub>i+1</sub> becomes the new Answer, and _v_<sub>i+1</sub> + 1 becomes the old Guess.
+2. If user indicates _Yes_ is correct for the new Answer: _v_ <sub>i+1</sub> becomes the old Guess, and _v_<sub>i+1</sub> + 1 becomes the new Answer. 
 
